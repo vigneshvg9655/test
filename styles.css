@@ -60,13 +60,15 @@
       width: 100%; 
   }
 } */
-.section1 {
+.firstImg {
   display: flex;
   align-items: center; 
   justify-content: space-between;
   background-image: url(home.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.section2 {
+.secondImg {
   display: flex;
   align-items: center; 
   justify-content: space-between;
@@ -79,12 +81,18 @@ span{
   font-weight: 400;
 }
 
-.left-image-container {
-  width: 30%; /* Adjust as needed */
-}
+/* .kaliImg {
+  width: 30%; /* Adjust as needed /
+} */
+.sunImg
 
-.section1,
-.right-text-container h1 {
+{
+  padding: 50px;
+}
+.kaliImgText{
+  text-align: center;
+}
+.kaliImgText h1 {
   margin: 0px; 
   font-family: Inter;
   font-size: 54px;
@@ -95,16 +103,15 @@ span{
   color: #FFFFFF; 
 
 }
-.section1,
-.right-text-container h3 {
+.kaliImgText h3 {
   margin: 0px; 
   color: #FFFFFF; 
   font-family: Inter;
   font-size: 54px;
   font-weight: 600;
+  padding: 33px;
 }
-.section2,
-.right-text-container h3 {
+.secondImgText h3 {
   margin: 0px; 
   color: #FFFFFF; 
   font-size: 28px;
@@ -114,9 +121,7 @@ span{
 
 }
  
-.left-image-container {
-  width: 30%; /* Adjust as needed */
-}
+
 
 .right-text h3{
   color: #FEF400; 
@@ -125,7 +130,6 @@ span{
   font-weight: 700;
   font-family: Inter;
   line-height: 30.26px;
-  margin: 62px;
   
 }
 .centered-content {
@@ -143,6 +147,7 @@ span{
   font-weight: 600;
   /* line-height: 48.41px; */
   text-align: center;
+  padding: 5px 50px 5px 50px;
 }
 .place
 {
@@ -194,11 +199,11 @@ span{
 }
 .last h5
 {
-  color: #FEF400;
   margin: 0px;
   font-family: Inter;
   font-size: 19.84px;
   font-weight: 700;
+  color: #FEF400;
   padding: 0px;
 }
 .footer
