@@ -11,10 +11,13 @@
   letter-spacing: 0.08em;
 
 }
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 0px) and (max-width: 480px) {
   .header {
     flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
+    background-color: pink;
   }
   
   .left-container, .right-container {
